@@ -1,0 +1,25 @@
+.course-details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ecf0f1;
+}
+
+details {
+  margin-top: 10px;
+}
+
+summary {
+  font-size: 18px;
+  cursor: pointer;
+  color: #3498db;
+}
+
+p {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+details[open] summary {
+  color: #2980b9;
+}
